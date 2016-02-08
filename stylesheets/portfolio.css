@@ -107,21 +107,48 @@ nav li a:hover {
     background-image: radial-gradient(circle farthest-corner at top, #46befb 10%, #470085 90%);
     height: 100%;
     width: 100%;
-    background-color: #470085;
+    background-color: #46befb;
 }
 
-.homeimg {
+.row {
+    width: 100%;
+}
+
+.container {
+    width: auto;
     height: 100%;
-    transform: translateX(25%);
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+/*.proj {
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+.proj:after {
+    display: table;
+    clear: both;
+}*/
+
+.indeximg {
+    height: auto;
+    float: right;
+    position: relative;
+    display: block;
+    max-width: 80%;
 }
 
 .desc {
+    width: 80%;
+    max-width: 480px;
     color: white;
-    height: auto;
-    margin-top: 200px;
 }
 
 .desc p {
+    font-size: 1em;
+    line-height: 150%;
     font-weight: 300;
     letter-spacing: .5px;
 }
@@ -239,96 +266,6 @@ i:hover {
 
 
 
-/*#design div {
-    display: block;
-    position: relative;
-    float: left;
-    overflow: hidden;
-}
-
-#design img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-figure {
-    overflow: hidden;
-}
-figure:hover figcaption {
-    transform: translateY(-58px);
-    -webkit-transform: translateY(-58px);
-	-moz-transform: translateY(-58px);
-	-ms-transform: translateY(-58px);
-    transition: transform 0.3s ease-in-out;
-}
-
-figcaption {
-    font-weight: 100;
-    line-height: 160%;
-    transition: transform 0.3s ease-in-out;
-}
-
-figcaption p {
-    font-size: 1.25em;
-}
-
-.rfigure {
-    position: relative;
-    float: right;
-    height: auto;
-}
-
-.rfigure figcaption {
-    position: absolute;
-    float: left;
-    width: 100%;
-    height: 55px;
-    left: -10px;
-    bottom: -60px;
-    padding-right: 10px;
-    padding-top: 5px;
-    background-color: rgba(0, 0, 0, 0.85);
-    
-}
-
-.lfigure {
-    position: relative;
-    width: auto;
-    float: left;
-}
-
-.lfigure figcaption {
-    position: absolute;
-    float: left;
-    width: 100%;
-    height: 55px;
-    left: 0px;
-    bottom: -60px;
-    padding-left: 10px;
-    padding-top: 5px;
-    background-color: rgba(0, 0, 0, 0.85);
-}
-
-span {
-    font-size: 1em;
-}
-
-.right {
-    text-align: right;
-}
-.bottom {
-    position: relative;
-}
-.bottom img {
-    position: absolute;
-    bottom: 0px;
-}*/
-
-
-
 /* RESEARCH --------------------------------------------------------*/
 
 
@@ -397,7 +334,6 @@ span {
 .col {
     float: left;
 }
-
 
 .whole {
     width: 100%;
