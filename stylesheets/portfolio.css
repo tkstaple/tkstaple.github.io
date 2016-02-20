@@ -45,6 +45,12 @@ nav {
     padding-bottom: 10px;
     z-index: 2;
 }
+.cenerginav a {
+    color: #37474F;
+}
+.cenerginav a:hover {
+    color: #818181;
+}
 
 nav ul {
     position: relative;
@@ -210,11 +216,11 @@ i:hover {
 
 
 
-/* DESIGN --------------------------------------------------------*/
+/* DESIGN RESEARCH --------------------------------------------------------*/
 
 #design {
     position: relative;
-    height: auto;
+    min-height: auto;
     background-image: radial-gradient(circle farthest-corner at top, #46befb 10%, #470085 90%);
     padding-top: 130px;
     padding-bottom: 100px;
@@ -252,7 +258,61 @@ i:hover {
 
 
 
-/* RESEARCH --------------------------------------------------------*/
+
+
+
+
+
+/* RESEARCH SINGLE PROJECTS --------- */
+
+#cenergi {
+    position: relative;
+    min-height: auto;
+    text-align: center;
+    background-color: #fafafa;
+}
+#cenergi nav {
+    color: #37474F;
+}
+
+.block {
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block:nth-child(even) {
+    background-color: #E48125;
+    color: white;
+}
+
+.intro {
+    padding-top: 130px;
+}
+.intro p {
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+}
+.intro img {
+    margin-bottom: 30px;
+}
+
+.content {
+
+}
+
+.approach {
+
+}
+
+.aesthetic {
+
+}
+
+
+
+/* CREATIVE WORK --------------------------------------------------------*/
 
 
 #research {
@@ -289,8 +349,6 @@ i:hover {
     font-weight: 300;
     padding: 30px;
 }
-
-
 
 
 
