@@ -38,7 +38,7 @@ nav {
     width: 100%;
     height: 55px;
     color: white;
-    background: transparent;
+    background: rgba(0, 188, 212, 0.9); /*transparent;*/
     position: fixed;
     text-align: center;
     padding-bottom: 10px;
@@ -110,10 +110,6 @@ nav li a:hover {
     background: #00BCD4;
 }
 
-.row {
-    width: 100%;
-}
-
 .container {
     width: 100%;
     height: 90%;
@@ -121,7 +117,10 @@ nav li a:hover {
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
-    
+}
+
+.splashtitle {
+    line-height: 170%;
 }
 
 .hometitle {
@@ -133,7 +132,7 @@ nav li a:hover {
     color: #00BCD4;
 }
 
-.tileshadow{
+.tileshadow {
     box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
 }
 
@@ -142,6 +141,7 @@ nav li a:hover {
     position: relative;
     display: block;
     max-width: 100%;
+    z-index: 0;
 }
 
 .desc {
@@ -165,19 +165,19 @@ nav li a:hover {
 .triangle1 {
     top: 450px;
     left: -150px;
-    z-index: 100;
+    z-index: 1;
 }
 
 .triangle2 {
     top: 70px;
     left: 50px;
-    z-index: 10;
+    z-index: 0;
 }
 
 .triangle3 {
     top: 100px;
     right: 30px;
-    z-index: 10;
+    z-index: 0;
 }
 
 
@@ -367,6 +367,8 @@ i:hover {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .block img {
@@ -384,9 +386,6 @@ i:hover {
 .offset {
     transform: translateY(100px);
 }
-
-
-
 
 
 
@@ -484,11 +483,13 @@ i:hover {
 }
 
 .proj > p {
-    color: black;
+    color: white;
     text-align: left;
     padding: 5px;
     margin-top: 5px;
 }
+
+
 
 
 
@@ -535,6 +536,12 @@ i:hover {
 	.cwcol {  margin: 5% 0 0% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
+
+
+
+
+
+
 
 
 
@@ -627,6 +634,10 @@ footer {
 footer .fa {
     color: #fff;
     padding: 2px;
+}
+
+footer .inverse {
+    color: black;
 }
 
 
