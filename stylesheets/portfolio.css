@@ -158,24 +158,24 @@ nav li a:hover {
     letter-spacing: .5px;
 }
 
-.triangle1, .triangle2, .triangle3 {
-    position: absolute;
+#triangle1, #triangle2, #triangle3 {
+    position: fixed;
 }
 
-.triangle1 {
-    top: 450px;
-    left: -150px;
+#triangle1 {
+    top: 470px;
+    left: -100px;
     z-index: 1;
 }
 
-.triangle2 {
-    top: 70px;
+#triangle2 {
+    top: 100px;
     left: 50px;
     z-index: 0;
 }
 
-.triangle3 {
-    top: 100px;
+#triangle3 {
+    top: 140px;
     right: 30px;
     z-index: 0;
 }
