@@ -426,8 +426,13 @@ i:hover {
 }
 
 .short {
-    margin-bottom: 100px;
+    margin-bottom: 130px;
     padding-bottom: 0px;
+}
+
+#down {
+    margin-top: 0;
+    transform: translateY(90px);
 }
 
 .intro img {
