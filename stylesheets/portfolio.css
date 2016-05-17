@@ -168,7 +168,10 @@ b {
 #triangle3,
 #triangle4,
 #triangle5,
-#triangle6
+#triangle6,
+#triangle7,
+#triangle8,
+#triangle9
 {
     position: fixed;
 }
@@ -189,8 +192,8 @@ b {
     z-index: 0;
 }
 #triangle4 {
-    top: 70px;
-    right: -60px;
+    top: 900px;
+    right: 400px;
     z-index: 0;
 }
 #triangle5 {
@@ -199,10 +202,26 @@ b {
     z-index: 0;
 }
 #triangle6 {
-    top: 600px;
-    right: 600px;
+    top: 470px;
+    right: -20px;
     z-index: 0;
 }
+#triangle7 {
+    top: 700px;
+    right: 40px;
+    z-index: 0;
+}
+#triangle8 {
+    top: 120px;
+    left: 200px;
+    z-index: 0;
+}
+#triangle9 {
+    top: 500px;
+    left: 0px;
+    z-index: 0;
+}
+
 
 
 /* ABOUT --------------------------------------------------------*/
@@ -333,7 +352,8 @@ i:hover {
     text-align: center;
     background-color: #fafafa;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
 }
 
 .block {
@@ -444,7 +464,9 @@ i:hover {
     padding-right: 50px;
 }
 
-
+.biomotion .half img {
+    margin-left: 40px;
+}
 
 
 
@@ -472,6 +494,12 @@ i:hover {
     color: #37474F;
 }
 
+.flowchart {
+    margin-bottom: 60px;
+    padding: 20px;
+    background: #fff;
+}
+
 .cenergi-color {
     background-color: #E48125;
     color: white;
@@ -481,6 +509,96 @@ i:hover {
     background-color: #d15932;
     color: white;
 }
+
+.cenergi .row {
+    margin-bottom: 40px;
+}
+
+.cenergi .row img {
+    margin-top: 0px;
+}
+
+.cenergi .row .one-third {
+    padding-left: 40px;
+    text-align: left;
+}
+
+
+
+
+
+
+/* FOODFULLY --------------------- */
+
+
+.foodfully-nav {
+    color: #37474F;
+    background: rgba(250, 250, 250, 0.95);
+}
+.foodfully-nav a:hover {
+    color: #00C752;
+}
+.foodfully-nav li a {
+    color: #37474F;
+}
+.foodfully-nav .active {
+    color: #00C752;
+}
+.foodfully {
+    color: #37474F;
+}
+
+.foodfully-color {
+    background-color: #00C752; /*#00B549*/
+    color: white;
+}
+
+
+
+
+
+
+/* Navfooter -------------------------*/
+
+
+.navfooter {
+    height: 150px;
+    background: #fafafa;
+}
+
+.navfooter > .half {
+    display: inline-block;
+    height: inherit;
+    /*padding-top: 30px;
+    padding-bottom: 30px;*/
+}
+
+.navfooter > .half > .half {
+    display: inline-block;
+    height: inherit;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.navfooter > .half:hover {
+    background: #e5e5e5;
+}
+
+.navfooter img {
+    float: right;
+    padding-right: 20px;
+    margin-top: 25px;
+}
+
+.navfooter h1 {
+    text-align: left;
+    color: #00BCD4;
+    padding-top: 50px;
+}
+
+
+
+
 
 
 
