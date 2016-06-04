@@ -30,6 +30,54 @@ $(document).ready(function () {
     window.addEventListener('scroll', function () { // on page scroll
         requestAnimationFrame(parallaxtriangles) // call parallaxtriangles() on next available screen paint
     }, false)
+    
+    
+    
+    
+    
+    window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame || function (f) {
+        setTimeout(f, 1000 / 60);
+    }
+
+    var triangle4 = document.getElementById('triangle4');
+    var triangle5 = document.getElementById('triangle5');
+    var triangle6 = document.getElementById('triangle6');
+
+    function parallaxtriangles() {
+        var scrolltop = window.pageYOffset; // get number of pixels document has scrolled vertically 
+        triangle4.style.top = 470 + -scrolltop * 1.7 + 'px';
+        triangle5.style.top = 100 + -scrolltop * .5 + 'px';
+        triangle6.style.top = 440 + -scrolltop * .75 + 'px';
+    }
+
+    window.addEventListener('scroll', function () { // on page scroll
+        requestAnimationFrame(parallaxtriangles) // call parallaxtriangles() on next available screen paint
+    }, false)
+    
+    
+    
+    
+    
+    
+    
+    window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame || function (f) {
+        setTimeout(f, 1000 / 60);
+    }
+
+    var triangle7 = document.getElementById('triangle7');
+    var triangle8 = document.getElementById('triangle8');
+    var triangle9 = document.getElementById('triangle9');
+
+    function parallaxtriangles() {
+        var scrolltop = window.pageYOffset; // get number of pixels document has scrolled vertically 
+        triangle7.style.top = 470 + -scrolltop * 1.7 + 'px';
+        triangle8.style.top = 100 + -scrolltop * .5 + 'px';
+        triangle9.style.top = 440 + -scrolltop * .75 + 'px';
+    }
+
+    window.addEventListener('scroll', function () { // on page scroll
+        requestAnimationFrame(parallaxtriangles) // call parallaxtriangles() on next available screen paint
+    }, false)
 
     
     

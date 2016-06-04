@@ -90,7 +90,7 @@ nav li a:hover {
 }
 
 .active {
-    font-weight: 500;
+    /*font-weight: 500;*/
     color: #ffd800;
 }
 
@@ -150,10 +150,9 @@ b {
 }
 
 .desc {
-    width: 80%;
     max-width: 500px;
     color: white;
-    margin-top: 40px;
+    padding: 40px;
 }
 
 .desc p {
@@ -315,8 +314,8 @@ i:hover {
     display: inline-block;
     position: relative;
     height: 250px;
-    width: 60%;
-    margin-left: auto;
+    max-width: 800px;
+    margin-left: auto + 50px;
     margin-right: auto;
     font-weight: 400;
     background-color: #fff;
@@ -330,10 +329,12 @@ i:hover {
 
 .pcontainer img {
     padding: 20px;
+    max-width: 250px;
 }
 
 .pcontainer .desc {
-    padding: 0;
+    padding: 40px;
+    padding-left: 0;
     color: black;
 }
 
@@ -375,6 +376,10 @@ i:hover {
     text-align: left;
 }
 
+.lefty {
+    text-align: left;
+}
+
 .p2container {
     display: inline-block;
     position: relative;
@@ -392,6 +397,7 @@ i:hover {
 .p2container p {
     text-align: left;
     line-height: 200%;
+    max-width: 700px;
 }
 
 .block img {
@@ -523,6 +529,28 @@ i:hover {
     text-align: left;
 }
 
+.cenergi button {
+    background: transparent;
+    border-radius: 30px;
+    font-size: 1em;
+    color: #E48125;
+    padding: 12px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #E48125;
+    margin-top: 40px;
+}
+.cenergi button:hover {
+    background: #E48125;
+    border-bottom-color: #D15932;
+    color: white;
+}
+
+.cenergi h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
 
 
 
@@ -553,6 +581,29 @@ i:hover {
     color: white;
 }
 
+.intro-full {
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+.foodfully button {
+    background: #00c752;
+    font-size: 1em;
+    color: #fff;
+    padding: 17px;
+    cursor: pointer;
+    margin-top: 40px;
+    border: none;
+    border-radius: 7px;
+}
+.foodfully button:hover {
+    background: #00B549;
+}
+
+.foodfully-logo {
+    margin-bottom: 80px;
+}
 
 
 
@@ -637,11 +688,20 @@ i:hover {
     box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
 }
 
-.proj > p {
+.art .container p {
     color: white;
     text-align: left;
     padding: 5px;
     margin-top: 5px;
+}
+
+.vid {
+    margin-top: 60px;
+}
+
+iframe {
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
+    max-width: 640px;
 }
 
 
