@@ -13,27 +13,20 @@
 	<meta property="og:type" content="website">
 
 	<title>Büro - Minimalist HTML5 Premium Portfolio Template for Studios &amp; Agencies</title>
-	
+
 	<!-- Favicon -->	
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
 	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-
+	
 	<!-- Google Fonts -->
 	<link href='//fonts.googleapis.com/css?family=Lora:400,400italic,700%7CWork+Sans:200,400,300,500' rel='stylesheet' type='text/css'>
 	<!-- Main styles -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-
-<!-- Body classes:  -->
-<!-- "fltrs-scale": adds the scale effect when filtering grid items -->
-<!-- "fltrs-fx-fade" adds the semi-transparent overlay when filtering -->
-<!-- "fltrs-fx-curtain" adds the curtain effect overlay when filtering -->
-<!-- notice that in case you want to add any effect, you will need to choose -->
-<!-- from one or another. Both filters could cause unexpected behaviors -->
-<body class="portfolio-page fltrs-fx-fade fltrs-scale" data-page="portfolio">
+<body class="portfolio-page fltrs-fx-fade no-fltrs-scale" data-page="portfolio">
 	<!-- Preloader -->
 	<div id="preloader">
 		<span class="preloader-ani"></span>
@@ -89,13 +82,13 @@
 				</nav> <!-- ./Main navigation -->
 			</div>
 		</header>
-
+		
 		<!-- Main content -->
 		<div class="main-container">
 			<main id="main" class="portfolio-page">
 				<!-- Page head/intro title & subtitle -->
 				<div class="container heading-section">
-					<div class="intro big-heading parallax col-sm-12">
+					<div class="intro col-sm-6 col-sm-offset-6">
 						<h1>The Craft</h1>
 						<p>Crafting ideas to generate branding experiences.<br class="nobr">
 							Büro trascends the beauty to achieve the function.</p>
@@ -119,10 +112,6 @@
 							</a>
 						</div>
 						<ul class="filter-nav">
-							<!-- you can setup your filter categories in a very easy way -->
-							<!-- just by adding 'data-filter' and your category as value -->
-							<!-- for example: -->
-							<!-- data-filter="branding" -->
 							<li class="active"><a href="#prtfl-anchor" data-filter="all">All</a></li>
 							<li><a href="#prtfl-anchor" data-filter="branding">Branding</a></li>
 							<li><a href="#prtfl-anchor" data-filter="illustration">Illustration</a></li>
@@ -131,63 +120,67 @@
 							<li><a href="#" data-filter="web">Web</a></li>
 						</ul>
 					</div>
-					<!-- Set here the columns number: 'cols-2' is the default value -->
+					<!-- Set here the columns number: cols-2 is the default value -->
 					<div class="js-ajax-holder projects cols-2">
 						<div class="row portfolio-list js-ajax-container">
-							<!-- 'data-filter' attributes allow you to join the item with the category -->
-							<!-- this category must be the same that previously within 'filter-nav' -->
-							<div class="img-holder prjct-item" data-filter="branding">
-								<a href="single-project-assistant.html">
-									<img src="images/grid-projects/project-01.jpg" alt="image description" class="img-responsive" width="672" height="672">
-									<span class="caption">Assistant<span>— branding</span></span>
-								</a>
-							</div>
-							<div class="img-holder prjct-item" data-filter="illustration">
+							<div class="img-holder prjct-item" data-filter=".branding">
 								<a href="single-project.html">
-									<img src="images/grid-projects/project-06.jpg" alt="image description" class="img-responsive" width="672" height="448">
-									<span class="caption">People by Leif<span>— branding</span></span>
+									<img src="images/grid-projects/project-01.jpg" alt="image description" class="img-responsive" width="695" height="695">
+									<span class="caption">Collective bag<span>— branding</span></span>
 								</a>
 							</div>
-							<div class="img-holder prjct-item" data-filter="branding">
-								<a href="single-project-titelles.html">
-									<img src="images/grid-projects/project-04.jpg" alt="image description" class="img-responsive" width="672" height="672">
-									<span class="caption">Titelles al Born<span>— branding</span></span>
+							<div class="img-holder prjct-item" data-filter=".illustration">
+								<a href="single-project.html">
+									<img src="images/grid-projects/project-06.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">Collective bag<span>— branding</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter=".illustration">
+								<a href="single-project.html">
+									<img src="images/grid-projects/project-02.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">Collective bag<span>— branding</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter=".motion">
+								<a href="single-project.html">
+									<img src="images/grid-projects/project-03.jpg" alt="image description" class="img-responsive" width="695" height="464">
+                                    <span class="caption">Collective bag<span>— branding</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter=".branding">
+								<a href="single-project.html">
+									<img src="images/grid-projects/project-04.jpg" alt="image description" class="img-responsive" width="695" height="695">
+									<span class="caption">Collective bag<span>— branding</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter=".photography">
+								<a href="single-project.html">
+									<img src="images/grid-projects/project-05.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">Collective bag<span>— branding</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter=".web">
+								<a href="single-project.html">
+									<img src="images/grid-projects/project-06.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">Collective bag<span>— branding</span></span>
+								</a>
+							</div>
+							<div class="img-holder prjct-item" data-filter=".web">
+								<a href="single-project.html">
+									<img src="images/grid-projects/project-07.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">Collective bag<span>— branding</span></span>
 								</a>
 							</div>
 							<div class="img-holder prjct-item" data-filter="photography">
-								<a href="single-project-field.html">
-									<img src="images/grid-projects/project-02.jpg" alt="image description" class="img-responsive" width="672" height="448">
-									<span class="caption">Anthropologie<span>— photography</span></span>
+								<a href="single-project.html">
+									<img src="images/grid-projects/project-08.jpg" alt="image description" class="img-responsive" width="695" height="695">
+									<span class="caption">Collective bag<span>— branding</span></span>
 								</a>
 							</div>
-							<div class="img-holder prjct-item" data-filter="branding">
-								<a href="single-project-jack.html">
-									<img src="images/grid-projects/project-03.jpg" alt="image description" class="img-responsive" width="672" height="448">
-                                    <span class="caption">Jack Wills<span>— branding</span></span>
-								</a>
-							</div>
-							<div class="img-holder prjct-item" data-filter="photography">
-								<a href="single-project-lovely.html">
-									<img src="images/grid-projects/project-05.jpg" alt="image description" class="img-responsive" width="672" height="448">
-									<span class="caption">Lovely Bastard<span>— photography</span></span>
-								</a>
-							</div>
-							<div class="img-holder prjct-item" data-filter="motion">
-								<a href="single-project-gil.html">
-									<img src="images/grid-projects/project-07.jpg" alt="image description" class="img-responsive" width="672" height="448">
-									<span class="caption">Gill Vicente<span>— motion</span></span>
-								</a>
-							</div>
-							<div class="img-holder prjct-item" data-filter="branding">
-								<a href="single-project-urbana.html">
-									<img src="images/grid-projects/project-08.jpg" alt="image description" class="img-responsive" width="672" height="672">
-									<span class="caption">Urbana<span>— branding</span></span>
-								</a>
-							</div>
-							<div class="img-holder prjct-item" data-filter="motion">
-								<a href="single-project-mutualismi.html">
-									<img src="images/grid-projects/project-09.jpg" alt="image description" class="img-responsive" width="672" height="448">
-									<span class="caption">Mutualismi<span>— motion</span></span>
+							<div class="img-holder prjct-item" data-filter="web">
+								<a href="single-project.html">
+									<img src="images/grid-projects/project-09.jpg" alt="image description" class="img-responsive" width="695" height="464">
+									<span class="caption">Collective bag<span>— ULTIMO PRIMERA PAGINA</span></span>
 								</a>
 							</div>
 						</div>
@@ -271,7 +264,7 @@
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-XXXXXXX-X', 'auto');
+	  ga('create', 'UA-77120449-1', 'auto');
 	  ga('send', 'pageview');
 	</script>
 

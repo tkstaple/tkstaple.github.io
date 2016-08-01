@@ -1,0 +1,22 @@
+*** Büro HTML5 Template - Changelog *** 
+
+2 July 2016 - Version 1.1.1
+	
+	* Fixed a small issue with menu responsiveness
+
+          NOTE: You just need to replace within js folder
+                the file main.js. All the modifications
+                related to this update are here.
+
+
+
+08 June 2016 - Version 1.1
+	
+	* Header has been improved using flexbox in order to provide much better performance.
+          This saves some code lines as well
+
+	* Improved responsive behaviors in tablets
+
+01 June 2016 - Version 1.0
+	
+	* First Release
