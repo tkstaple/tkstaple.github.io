@@ -957,7 +957,7 @@ the change from mobile to desktop menu */
    horizontally and vertically */
 .centered-content-vh {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 40px;
 	margin-bottom: 100px;
 }
 .centered-content-vh > *:first-child { margin-top: 0; }
