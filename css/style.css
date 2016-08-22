@@ -133,8 +133,8 @@
     box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.15);
 }
 
-button {
-    
+.outline {
+    border: 1px solid black;
 }
 
 .dark-bg {
@@ -1293,8 +1293,6 @@ body.fltrs-fx-curtain .filter-nav.bye { left: 100%; opacity: 0; }
 #wrapper .portfolio-list .prjct-item a .caption2 { right: 13%; }
 #wrapper .portfolio-list .prjct-item a:hover .caption2 {
     
-    
-    
     opacity: 1;    
     right: 15%;
     -webkit-transition: all 0.5s ease;
@@ -1303,7 +1301,15 @@ body.fltrs-fx-curtain .filter-nav.bye { left: 100%; opacity: 0; }
          -o-transition: all 0.5s ease;
             transition: all 0.5s ease;
 }
-.portfolio-list .prjct-item a .caption2 { line-height: 19px; }
+.portfolio-list .prjct-item a .caption2 { 
+    font-size: 1.25em;
+    line-height: 30px; 
+}
+
+.portfolio-list .prjct-item a .caption2 span { 
+    font-family: inherit; 
+}
+
 
 /* grid item hovers */
 .portfolio-grid .prjct-item {
