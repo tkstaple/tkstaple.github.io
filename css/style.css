@@ -57,12 +57,7 @@
 
 }
 
-/*@font-face {
-  font-family: 'Giza';
-  src: url("fonts/Giza.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}*/
+
 
 [data-icon]:before {
   font-family: "buro" !important;
