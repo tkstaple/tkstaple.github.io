@@ -393,7 +393,7 @@ input[type="submit"]:hover,
 .btn-primary .badge,
 .comments-section h4,
 .heading-section .contact-list a:hover { color: #00bcd4; }
-.filters-icon .icn-wrapper svg circle { stroke: yellow; }
+.filters-icon .icn-wrapper svg circle { stroke: #5a5a5a; }
 /* color for text selection */
 ::selection { color: #00bcd4; }
 ::-moz-selection { color: #00bcd4; }
@@ -1023,7 +1023,7 @@ within its container, use this class */
 /* categories/filters icon trigger */
 .filters-icon {
   position: fixed;
-  bottom: 5%;
+  top: 15%;
   width: 20px;
   z-index: 100;
   margin-left: -3.5%;
@@ -1044,18 +1044,18 @@ within its container, use this class */
 .filters-icon .icn-wrapper {
   cursor: pointer;
   float: right;
-  width: 58px;
+  width: 80px;
   position: relative;
-  height: 58px;
+  height: 80px;
   margin-right: -20px;
   perspective: 100em;
 }
 .filters-icon .icn-wrapper .eyecon {
   opacity: 0;
-  width: 50px;
-  height: 50px;
-  background: url(../images/eye-icon.svg) no-repeat 12px 19px;
-  background-size: 35px 20px;
+  width: 80px;
+  height: 80px;
+  background: url(../images/eye-icon.svg) no-repeat 16px 24px;
+  background-size: 50px 35px;
   -webkit-transform: translateY(-3px);
      -moz-transform: translateY(-3px);
       -ms-transform: translateY(-3px);
@@ -1078,7 +1078,7 @@ within its container, use this class */
 .filters-icon .icn-wrapper svg { z-index: 10; }
 .filters-icon .icn-wrapper svg circle {
   fill: none;
-  stroke-width: 0.65;
+  stroke-width: 0.55;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-dasharray: 39 39;
