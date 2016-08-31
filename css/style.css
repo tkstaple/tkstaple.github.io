@@ -162,6 +162,9 @@
     padding-right: 30px;
     border-radius: 102px;
 }
+.dark-bg .meta-cats a {
+    color: #a2a2a2;
+}
 
 .cenergi-bg {
     background-color: #ff8c00;
