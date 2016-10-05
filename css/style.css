@@ -569,7 +569,7 @@ body .js-ajax-holder .js-load-more {
 }
 .navbar { margin-bottom: 0; }
 #header {
-	background: rgba(255, 255, 255, 1);
+	background: rgba(255, 255, 255, .97);
 	padding: 65px 0;
 	position: fixed;
 	top: 0;
