@@ -1315,6 +1315,7 @@ body.fltrs-fx-curtain .filter-nav.bye { left: 100%; opacity: 0; }
 
 .portfolio-list .prjct-item a .caption2 span { 
     font-family: inherit; 
+    font-style: italic;
 }
 
 
