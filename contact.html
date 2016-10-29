@@ -119,15 +119,16 @@
 			<div class="container contact-form mar-btm-xlg">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-6">
-						<form class="validate-form">
+                        
+						<form method="post" class="validate-form">
 							<div class="row">
 								<div class="input-row col-md-6">
 									<label for="name">Name</label>
-									<input type="text" class="form-control required-field" id="name" placeholder="Name" required>
+									<input type="text" name="name" class="form-control required-field" id="name" placeholder="Name" required>
 								</div>
 								<div class="input-row col-md-6">
 									<label for="mail">Email address</label>
-									<input type="email" class="form-control required-email" id="mail" placeholder="Email" required>
+									<input type="email" name="email" class="form-control required-email" id="mail" placeholder="Email" required>
 								</div>
 							</div>
 							<div class="row">
@@ -137,7 +138,7 @@
 								</div-->
 								<div class="input-row col-md-6">
 									<label for="topic">Topic</label>
-									<select id="topic" class="form-control required-select">
+									<select id="topic" name="topic" class="form-control required-select">
 										<option>Select</option>
 										<option>Comments/Feedback on Project</option>
 										<option>Collab Inquiry</option>
@@ -149,14 +150,15 @@
 							<div class="row">
 								<div class="input-row col-md-12">
 									<label for="message">Comment</label>
-									<textarea id="message" cols="30" rows="10" placeholder="Say Hello!" class="form-control required-field" required></textarea>
+									<textarea id="message" name="message" cols="30" rows="10" placeholder="Say Hello!" class="form-control required-field" required></textarea>
 								</div>
-                                <a href="mailto:timk.stapleton@gmail.com?subject=Mail from tkstaple.github.io">
+                                
+                                <!--a href="mailto:timk.stapleton@gmail.com?subject=Mail from tkstaple.github.io"-->
                                     <div id="submit-btn">
                                         <input type="submit" value="send">
                                         <i class="arrow right-arrow"></i>
                                     </div>
-                                </a>
+                                <!--/a-->
 							</div>
 						</form>	
 						<small id="msg-submit-form" class="form-success hidden">I'll get back to you as soon as possible. Thanks!</small>					
