@@ -128,6 +128,17 @@
 }
 
 
+.logo h4,
+.intro h1 {
+    font-family: 'gaze_proregular' !important;
+}
+
+
+.about h3,
+.portfolio-page h2{
+    font-weight: 700;
+}
+
 
 .text-muted {
     color: #b8b8b8;
@@ -338,6 +349,11 @@ ul { margin-bottom: 45px; padding-left: 20px; }
 /* main font family & font color for body and main text */
 body,
 
+h1,
+h2,
+h3,
+h4,
+
 figcaption,
 .comments-section span,
 .slider-module .carousel-inner .carousel-caption span,
@@ -355,15 +371,12 @@ figcaption {
 }
 
 /* secondary font family */
-h1,
-h2,
-h3,
-h4,
+
 
 .header .meta > em,
 .filter-nav li a,
 
-.alt-font { font-family: 'gaze_proregular'; }
+.alt-font { font-family: 'gaze_proregular' !important; } 
 
 /* general details colors > emphasis color */
 h1,
