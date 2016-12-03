@@ -135,7 +135,10 @@
 
 
 .about h3,
-.portfolio-page h2{
+.portfolio-page h2,
+.projects-section h1,
+.projects-section h2
+{
     font-weight: 700;
 }
 
@@ -3468,7 +3471,7 @@ this improves this issue. TODO */
 }
 /* Screens & Devices with 769 & wider
 --------------------------------------------*/
-@media only screen and (min-width: 769px) {
+/*@media only screen and (min-width: 769px) {
 	#wrapper.link-hovered #overlay {
 		height: 100%;
 		opacity: 1;
@@ -3533,7 +3536,7 @@ this improves this issue. TODO */
 		line-height: 16px;
 		font-weight: normal;
 	}
-}
+}*/
 
 /* Screens & Devices with 992 & smaller
 --------------------------------------------*/
