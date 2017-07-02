@@ -507,6 +507,7 @@ blockquote { border-left: 2px solid #00bcd4; }
 /* secondary emphasis color > yellow (#FFF197) by defaults */
 .btn-shw-form { background: #FFF197; }
 body .underline { border-bottom-color: #FFF197; }
+body .dark-bg .underline { border-bottom-color: rgba(255, 241, 151, 0.3); }
 /* color for text selection */
 ::selection { background: #FFF197; }
 ::-moz-selection { background: #FFF197; }
@@ -1565,7 +1566,7 @@ body.fltrs-fx-curtain .filter-nav.bye { left: 100%; opacity: 0; }
   line-height: 21px;
 	font-style: italic;
   text-align: right;
-  color: #FFF;
+  color: #333;
 }
 /* Video embeds
 --------------------------------------------*/
