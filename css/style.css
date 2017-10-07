@@ -396,8 +396,10 @@ figcaption,
 .heading-section small,
 .testimonial-title,
 .portfolio-grid .caption span,
-.media-container .caption .holder
-{ font-family: 'Raleway', "HelveticaNeue", helvetica, Arial, sans-serif !important; color: #5a5a5a; }
+.media-container .caption .holder { 
+    /*font-family: 'Raleway', "HelveticaNeue", helvetica, Arial, sans-serif !important; color: #5a5a5a;*/
+    font-family: 'Montserrat', "HelveticaNeue", helvetica, Arial, sans-serif !important; color: #5a5a5a;
+}
 
 figcaption {
     color: #000;
