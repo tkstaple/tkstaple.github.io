@@ -139,7 +139,6 @@
     font-weight: 700;
 }
 
-
 .text-muted {
     color: #b8b8b8;
 }
@@ -215,6 +214,10 @@
     color: #b8b8b8 !important;
 }
 
+a.highlight {
+    
+}
+
 
 
 
@@ -243,7 +246,7 @@ p > a:visited,
 ul li > a {
 	display: inline-block;
 	position: relative;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 .heading-holder a,
 #footer ul li > a { font-weight: normal; }
@@ -283,14 +286,18 @@ a:focus,
 
 a, a:focus { outline: none !important; }
 a:hover,
-p > a:hover { color: inherit; }
+p > a:hover { 
+    color: inherit;
+}
 
 .links-section.blog .links-holder { margin-bottom: 0; }
 p > a,
 .links-section.blog .links-holder li a,
 .links-section.project-pagination .links-holder > li > a { position: relative; }
-p > a:after,
-.links-section .links-holder li a:after {
+
+
+p > a.line-move:after,
+.links-section .links-holder li a.line-move:after {
   content: "";
   position: absolute;
   bottom: 1px;
@@ -546,11 +553,16 @@ blockquote { border-left: 2px solid #00bcd4; }
 
 /* secondary emphasis color > yellow (#FFF197) by defaults */
 .btn-shw-form { background: #FFF197; }
-body .underline { border-bottom-color: #FFF197; }
-body .dark-bg .underline { border-bottom-color: rgba(255, 241, 151, 0.3); }
+body .underline { border-bottom-color: #ffe852; }
+body .dark-bg .underline { border-bottom-color: rgba(255, 232, 82, 0.35); }
 /* color for text selection */
 ::selection { background: #FFF197; }
 ::-moz-selection { background: #FFF197; }
+
+body a.underline:hover {
+    color: #00bcd4;
+    border-bottom-color: #00bcd4;
+}
 
 /* ---------------------------------------------------------
   3.2 General UI elements
@@ -639,23 +651,40 @@ body .js-ajax-holder .js-load-more {
        -o-transition: all 0.333s ease-out;
           transition: all 0.333s ease-out;
 }
-.scroll-bottom.fixedheader #header {
+#header-dark {
+	background: rgba(26, 30, 31, 0.97);
+	padding: 65px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9991;
+	width: 100%;
+	-webkit-transition: all 0.333s ease-out;
+     -moz-transition: all 0.333s ease-out;
+      -ms-transition: all 0.333s ease-out;
+       -o-transition: all 0.333s ease-out;
+          transition: all 0.333s ease-out;
+}
+.scroll-bottom.fixedheader #header,
+.scroll-bottom.fixedheader #header-dark {
 	-webkit-transform: translateY(-85%);
      -moz-transform: translateY(-85%);
 	    -ms-transform: translateY(-85%);
        -o-transform: translateY(-85%);
 	        transform: translateY(-85%);
 }
-.menu-no-hide .scroll-bottom.fixedheader #header {
+.menu-no-hide .scroll-bottom.fixedheader #header,
+.menu-no-hide .scroll-bottom.fixedheader #header-dark {
 	-webkit-transform: translateY(0);
      -moz-transform: translateY(0);
 	    -ms-transform: translateY(0);
        -o-transform: translateY(0);
 	        transform: translateY(0);
 }
-.scroll-top.fixedheader #header { padding: 25px 0; }
-.top-page #header,
-.scroll-bottom #header { background: rgba(255, 255, 255, 0) !important; }
+.scroll-top.fixedheader #header,
+.scroll-top.fixedheader #header-dark { padding: 25px 0; }
+.top-page #header, .top-page #header-dark,
+.scroll-bottom #header, .scroll-bottom #header-dark { background: rgba(255, 255, 255, 0) !important; }
 
 /* -----------------------------------------------------------
   3.2.2 Main Navigation
@@ -1013,7 +1042,7 @@ the change from mobile to desktop menu */
   padding-bottom: 0px;
 }
 .underline:after {
-  display: block;
+  display: inline-block;
   content: "";
 }
 /* this class basically centers the text within a wrapper */
