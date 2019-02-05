@@ -404,8 +404,8 @@ figcaption,
 .testimonial-title,
 .portfolio-grid .caption span,
 .media-container .caption .holder { 
-    /*font-family: 'Raleway', "HelveticaNeue", helvetica, Arial, sans-serif !important; color: #5a5a5a;*/
-    font-family: 'Montserrat', "HelveticaNeue", helvetica, Arial, sans-serif !important; color: #5a5a5a;
+    font-family: 'Roboto', 'HelveticaNeue', sans-serif !important; color:#5a5a5a;
+    /*font-family: 'Montserrat', "HelveticaNeue", helvetica, Arial, sans-serif !important; color: #5a5a5a;*/
 }
 
 figcaption {
@@ -771,11 +771,11 @@ the change from mobile to desktop menu */
 /* dropdown menu */
 .dropdown-menu {
 	display: block;
-	width: 175px;
+	width: 215px;
 	min-width: inherit;
 	height: 0;
 	border: 0;
-	padding: 16px 1px 5px;
+	padding: 10px 1px 5px;
 	visibility: hidden;
   z-index: -1;
 	-webkit-box-shadow: none !important;
@@ -880,9 +880,9 @@ the change from mobile to desktop menu */
 	display: inline-block;
 	padding: 0 0 0 13px;
 	white-space: normal;
-	font-size: 13px;
+	font-size: 16px;
 	font-weight: normal;
-	line-height: 16px;
+	line-height: 19px;
 	text-decoration: none;
 	vertical-align: top;
 }
@@ -931,7 +931,7 @@ the change from mobile to desktop menu */
 #main .big-heading h1,
 .intro h1 { font-size: 4.35vw; }
 #main .big-heading p {
-	width: 50%;
+	width: 80%;
 	margin-top: 25px;
 	font-size: 1.25vw;
     line-height: 160%;
