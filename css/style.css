@@ -713,7 +713,10 @@ body .js-ajax-holder .js-load-more {
   display: flex;
   align-items: center;
 }
-.nav.navbar-nav { width: 100%; }
+.nav.navbar-nav { 
+    width: 100%; 
+    /*float: right;*/
+}
 /* we need this value for margin bottom because
 the change from mobile to desktop menu */
 #header .navbar-nav > li { margin-bottom: 0 !important; }
@@ -930,7 +933,7 @@ the change from mobile to desktop menu */
 	width: 70%;
 	margin-top: 25px;
 	font-size: 1.25vw;
-    line-height: 160%;
+    line-height: 30px;
 }
 #main .big-heading .meta-cats,
 .intro .meta-cats {
