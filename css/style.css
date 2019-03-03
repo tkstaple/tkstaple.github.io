@@ -930,7 +930,7 @@ the change from mobile to desktop menu */
 #main .big-heading h1,
 .intro h1 { font-size: 4.35vw; }
 #main .big-heading p {
-	width: 70%;
+	width: 100%%;
 	margin-top: 25px;
 	font-size: 1.25vw;
     line-height: 30px;
