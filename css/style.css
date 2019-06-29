@@ -419,6 +419,10 @@ figcaption {
     font-weight: 400 !important;
 } 
 
+h1 {
+    margin-bottom: 30px;
+}
+
 /* general details colors > emphasis color */
 h1,
 a,
